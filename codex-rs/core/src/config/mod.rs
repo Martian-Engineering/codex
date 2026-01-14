@@ -1425,7 +1425,7 @@ impl Config {
         let ConfigRequirements {
             approval_policy: mut constrained_approval_policy,
             sandbox_policy: mut constrained_sandbox_policy,
-            mcp_server_requirements,
+            mcp_servers: mcp_server_requirements,
         } = requirements;
 
         constrained_approval_policy
